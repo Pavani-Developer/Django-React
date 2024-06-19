@@ -40,10 +40,12 @@ python manage.py migrate
 Run the Django server:
 
 python manage.py runserver
-Frontend Setup
-Navigate to the frontend directory:
 
+**Frontend Setup**
+Navigate to the frontend directory:
 cd frontend
+
+
 Install the required npm packages:
 
 npm install
@@ -63,14 +65,12 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any questions or feedback, please contact me at your-email@example.com.
+For any questions or feedback, please contact me at pavani65108@gmail.com.
 
 Thank you for checking out Note Maker! I hope you find it helpful and enjoy using it. Happy note-taking! 😊
 
 
-### Notes:
-- Make sure to replace placeholders like `yourusername`, `path/to/home-page-screenshot.png`, and `your-email@example.com` with your actual GitHub username, screenshot paths, and email address.
-- You can also add more details or modify the existing sections as per your project requirements.
+
 
 
 
