@@ -1,0 +1,106 @@
+.note-container {
+    padding: 10px;
+    margin: 20px 0 0 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    background-image: linear-gradient(to top, #cfd9df 0%, #aad7f0 100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .note-container:hover{
+      padding: 20px;
+      transition: 0.3s;
+      box-shadow: rgba(197, 121, 234, 0.35) 0px 5px 15px;
+    }
+  
+  .note-title {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .note-content {
+    color: #666;
+    font-size: 19px;
+  }
+  
+  .note-date {
+    color: #999;
+    font-size: 0.8rem;
+  }
+  
+  .delete-button {
+    background-image: linear-gradient(120deg, #cb1717 0%, #8ec5fc 100%);    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-image: linear-gradient(120deg, #871aec 0%, #8ec5fc 100%);
+    transition: 0.3s;  
+  }
+
+  .edit-button {
+    background-image: linear-gradient(120deg, #1be17e 0%, #8ec5fc 100%);    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 2%;
+  }
+  
+  #cancel-btn{
+    background-image: linear-gradient(120deg, #cb1717 0%, #8ec5fc 100%);    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 20%;
+    margin: 10px;
+  }
+
+  #save-btn{
+    background-image: linear-gradient(120deg, #1be17e 0%, #8ec5fc 100%);    
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 2%;
+    width: 20%;
+  }
+  #edit-text{
+    height: 50px;
+    margin: 20px 0 20px 0;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  #edit-input{
+    height: 40px;
+    width: 50%;
+    margin: 20px 0 20px 0;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+
+  }
+
+  .edit-note{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }

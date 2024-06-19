@@ -1,0 +1,103 @@
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+}
+div {
+    font-family: Arial, sans-serif;
+    
+  }
+  
+h2{
+  text-align: center;
+}
+  .notes-section {
+    margin-bottom: rem;
+    display: flex;
+  }
+  
+  .notes-section h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .note {
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  form {
+    background-image: linear-gradient(120deg, #be84f5 0%, #7cbcf0 100%);    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+
+
+  }
+
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #f44336; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    margin-bottom: -30px;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .logout-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
